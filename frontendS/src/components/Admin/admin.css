@@ -1,0 +1,87 @@
+/* Admin.css */
+
+/* Center the login form */
+.admin-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #999b9c; /* Adjust the path and image file name */
+    background-size: cover; /* Adjust to 'contain' or other values as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top:-200px;
+  
+  }
+  
+  /* Style the login box */
+  .login-box {
+    display: flex;
+    width: 650px;
+    padding: 70px;
+    background-color:  #f3f7f6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 300px;
+    margin-bottom: 100px;
+    
+  }
+  
+  /* Style the login form header */
+  .login-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  
+  /* Style form input fields */
+  .form-group {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 30px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  
+  /* Style the login button */
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d2322;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 35px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background-color: #1eb2a6;
+  }
+  
+  /* Style the error message */
+  .error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,92 @@
+/* ManageInstitute.css */
+
+
+
+/* Heading */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Button styles */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Confirmation dialog */
+.confirmation-dialog {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-dialog p {
+  margin: 0 0 10px;
+}
+
+.confirmation-dialog button {
+  margin-right: 10px;
+}
+
+/* Approved and Rejected tables */
+.approved-rejected {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.approved, .rejected {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.approved h3, .rejected h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.approved table, .rejected table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.approved table, .rejected table, .approved th, .rejected th, .approved td, .rejected td {
+  border: 1px solid #ccc;
+}
+
+.approved th, .rejected th, .approved td, .rejected td {
+  padding: 8px;
+  text-align: left;
+}

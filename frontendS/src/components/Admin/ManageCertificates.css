@@ -1,0 +1,52 @@
+
+  /* ManageCertificates.css */
+
+.certi {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .certi h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .certi label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .certi input[type="file"] {
+    display: none;
+  }
+  
+  .certi button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .certi button:hover {
+    background-color: #0056b3;
+  }
+  
+  .certi p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .certi a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .certi a:hover {
+    text-decoration: underline;
+  }
+  

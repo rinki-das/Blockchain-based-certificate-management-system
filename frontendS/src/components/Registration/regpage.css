@@ -1,0 +1,90 @@
+
+.signup-page {
+  background-color:  #999b9c;/* Replace with your specific page background image URL */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-size: cover; /* Adjust to 'contain' or other values as needed */
+    background-repeat: no-repeat;
+   
+    margin-top:-200px;
+
+}
+  /* Signup Form Styles */
+
+/* Your existing styles for the form */
+.signup-page 
+    .signup-form {
+       
+        width:900px;
+        padding: 70px;
+        background-color:  #f3f7f6;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-top: 300px;
+        margin-bottom: 100px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-type {
+    margin-bottom: 15px;
+  }
+  
+  .user-type label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 89%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #195d53; /* Darker background color on hover */
+  }
+  
+  

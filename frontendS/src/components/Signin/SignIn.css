@@ -1,0 +1,60 @@
+/* SignIn.css */
+
+.sign-in-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sign-in-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-form .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .sign-in-form label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sign-in-form input[type="email"],
+  .sign-in-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .sign-in-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-in-form button:hover {
+    background-color: #195d53; /* Darker background color on hover */
+  }
+  
+  .error-message {
+    color: #d9534f; /* Red color for error messages */
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
