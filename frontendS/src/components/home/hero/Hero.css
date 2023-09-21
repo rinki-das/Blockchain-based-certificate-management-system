@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/blockchain1.png");
+  background-image: url("../../../../public/images/blockssssss.png");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -10,7 +10,8 @@
   height: 100vh;
   padding-top: 20%;
   padding-right: 50px;
-  color: #fff;
+  color: #766565;
+  margin-left: 10px;
 }
 .hero #heading h3 {
   color: #fff;
@@ -20,6 +21,44 @@
   margin: 0;
   padding: 0;
 }
+/* Style for the primary button */
+.primary-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the secondary button */
+.secondary-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secondary-btn a {
+  text-decoration: none;
+  color: #333;
+}
+
+.secondary-btn:hover {
+  background-color: #dcdcdc;
+}
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;

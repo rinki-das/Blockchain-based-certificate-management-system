@@ -10,14 +10,15 @@ const Hero = () => {
           <div className='row'>
             <Heading subtitle='NIELIT leading the way.' title='Where Aspirations Find their Best Digital Future' />
             <p>Empowering India through Digital Literacy</p>
-            <div className='button'>
-              <button className='primary-btn'>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-              <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
-            </div>
+            <div class='buttons'>
+  <a href='/regpage' class='primary-btn'>
+    GET STARTED NOW <i class='fa fa-long-arrow-alt-right'></i>
+  </a>
+  <button class='secondary-btn'>
+    <a href='course_page_url_here'>VIEW COURSE <i class='fa fa-long-arrow-alt-right'></i></a>
+  </button>
+</div>
+
           </div>
         </div>
       </section>
