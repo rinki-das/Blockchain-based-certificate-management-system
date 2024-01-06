@@ -213,9 +213,9 @@ const RegPage = () => {
             onChange={(e) => handleInputChange(e, setConfirmPassword)}
           />
         </div>
-        <button className="signup-button" onClick={handleSignup}>
+        <buttono className="signup-button" onClick={handleSignup}>
           Sign Up
-        </button>
+        </buttono>
         <p>{message}</p>
       </div>
     </div>

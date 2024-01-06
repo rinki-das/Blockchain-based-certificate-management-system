@@ -1,0 +1,42 @@
+/* In DataEntryReport.css */
+
+.table-container {
+  margin: 20px;
+}
+
+.excel-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.excel-table th, .excel-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.excel-table th {
+  background-color: #f0f0f0;
+}
+
+.excel-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Alternate row color */
+}
+
+.print-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
+
+.containerss {
+  text-align: center;
+}
+
+  

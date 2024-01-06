@@ -1,25 +1,24 @@
-import React from "react"
+import React from "react";
+import './Head.css';
 
 const Head = () => {
   return (
     <>
       <section className='head'>
-        <div className='container flexSB'>
-          <div className='logo'>
-            <h1>NIELIT</h1>
-            <span>BLOCKCHAIN VERSION</span>
-          </div>
-
-          <div className='social'>
-            <i className='fab fa-facebook-f icon'></i>
-            <i className='fab fa-instagram icon'></i>
-            <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-youtube icon'></i>
-          </div>
+        <div className='container flexB'>
+          {/* Replace the text-based logo with an image */}
+          <img
+            src="../images/new.png"
+            alt="NIELIT Blockchain Version Logo"
+            className="logo"  
+          />
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Head
+export default Head;
+
+
+

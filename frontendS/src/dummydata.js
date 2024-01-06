@@ -1,23 +1,25 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Best Courses",
-    desc: "NIELIT provides a wide variety of IT and electronics courses, from basics to advanced topics, including diplomas, certifications, and workshops. Check their official website for specifics.",
+    icon: "🏆", // Trophy emoji
+    title: "Achieve Greater Efficiency",
+    desc: "Say goodbye to tedious data entry and manual calculations. Our system streamlines tasks, making your work faster and more effective. Get more done in less time!",
   },
   {
-    id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "NIELIT certificates are industry-recognized in IT and electronics. They improve skills, vary in specialization, and have different levels. Visit the official website for details.",
+    id: 2,
+    icon: "⚙️", // Gear emoji
+    title: "Experience Seamless Automation",
+    desc: "Tired of repetitive tasks? Let our system handle them for you! Automate calculations, report generation, and more. Say hello to a simpler and more productive workday.",
   },
   {
-    id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "NIELIT partners with industry and academic experts to enhance its programs, ensuring they are up-to-date and industry-relevant.",
+    id: 3,
+    icon: "🔐", // Padlock emoji
+    title: "Fortify Your Security",
+    desc: "Your data is invaluable, and we treat it that way. Our advanced security measures, including data encryption and blockchain technology, provide a fortress for your sensitive information. Rest easy knowing your data is safe.",
   },
-]
+];
+
+
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
@@ -171,76 +173,76 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
-    courseName: "UI/UX Design Courses",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Art & Design",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Computer Science",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "History & Archeologic",
-    course: "15 Courses",
-  },
-  {
-    cover: "./images/courses/online/o5.png",
-    hoverCover: "./images/courses/online/o5.1.png",
-    courseName: "Software Engineering",
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Short Term Courses in Hardware & Networking",
     course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Information Software",
-    course: "60 Courses",
-  },
-  {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Health & Fitness",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Marketing",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Graphic Design",
-    course: "80 Courses",
-  },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Music",
-    course: "120 Courses",
   },
   {
     cover: "./images/courses/online/o11.png",
     hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
-    course: "17 Courses",
+    courseName: "Short Term Courses in Software",
+    course: "35 Course",
+  },
+  {
+    cover: "./images/courses/online/o3.png",
+    hoverCover: "./images/courses/online/o3.1.png",
+    courseName: "Self-paced mode Online Learning",
+    course: "5 Courses",
+  },
+  {
+    cover: "./images/courses/online/o4.png",
+    hoverCover: "./images/courses/online/o4.1.png",
+    courseName: "SOP",
+    course: "7 Courses",
+  },
+  {
+    cover: "./images/courses/online/o5.png",
+    hoverCover: "./images/courses/online/o5.1.png",
+    courseName: "DGR Courses",
+    course: "3 Courses",
+  },
+  {
+    cover: "./images/courses/online/o6.png",
+    hoverCover: "./images/courses/online/o6.1.png",
+    courseName: "Basic Courses",
+    course: "4 Courses",
+  },
+  {
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Advanced Level Courses",
+    course: "10 Courses",
+  },
+  {
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: " Courses for Professionals",
+    course: "14 Courses",
+  },
+  {
+    cover: "./images/courses/online/o9.png",
+    hoverCover: "./images/courses/online/o9.1.png",
+    courseName: "Digital Literacy Courses",
+    course: "5 Courses",
+  },
+  {
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Formal Courses",
+    course: "13 Courses",
+  },
+  {
+    cover: "./images/courses/online/o11.png",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Non-Formal Courses",
+    course: "4 Courses",
   },
   {
     cover: "./images/courses/online/o12.png",
     hoverCover: "./images/courses/online/o12.1.png",
-    courseName: "Web Management",
-    course: "17 Courses",
+    courseName: "NSQF Courses",
+    course: "68 Courses",
   },
 ]
 export const team = [
@@ -316,23 +318,23 @@ export const faq = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    name: "Sudip Mishra",
+    post: "O level",
+    desc: "Formaly DOEAAC....courses are very usefull",
+    cover: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    name: "A Paul",
+    post: "",
+    desc: "Great experience with this one",
+    cover: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    name: "Sourav Nag",
+    post: "NIELIT O Level in Information Technology",
+    desc: "Satisfied with the faculty members and really good infrastructure",
+    cover: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
   },
 ]

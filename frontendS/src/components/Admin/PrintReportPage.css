@@ -1,0 +1,59 @@
+/* PrintReportPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-container {
+    margin: 20px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  /* Add additional styles for the table if needed */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #d3d3d3;
+  }
+  
+  .additional-text {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  
+  .footer-text {
+    font-size: 10px;
+    margin-top: 40px;
+  }
+  

@@ -1,0 +1,21 @@
+/* Apply styles to the head section */
+.head {
+  background-color: #ffffff; /* Set your desired background color */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Style the container with flex properties */
+.head .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo image */
+.head .logo {
+  width: 100%; /* Set the width to 100% to cover the container */
+  height: auto; /* Maintain aspect ratio */
+  /* Add any additional styles you want for the logo */
+}
+
+
